@@ -16,4 +16,4 @@ Checkout [https://gorm.io](https://gorm.io) for details.
 
 ## THE TRADEOFF
 While CGO free version make things simple, it has performance drawback.<br/>
-go-sqlite3 performs 1.5~2 times better than . For more details, refer to [this benchmarking issue](https://gitlab.com/cznic/sqlite/-/issues/27)
+go-sqlite3 performs 1.5~2 times better than the CGO Free one. For more details, refer to [this benchmarking issue](https://gitlab.com/cznic/sqlite/-/issues/27)
