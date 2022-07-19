@@ -1,16 +1,14 @@
-# GORM Sqlite Driver
-
-![CI](https://github.com/go-gorm/sqlite/workflows/CI/badge.svg)
+# CGO Free GORM Sqlite Driver
 
 ## USAGE
 
 ```go
 import (
-  "gorm.io/driver/sqlite"
+  "github.com/hirosato/sqlite"
   "gorm.io/gorm"
 )
 
-// github.com/mattn/go-sqlite3
+// https://gitlab.com/cznic/sqlite
 db, err := gorm.Open(sqlite.Open("gorm.db"), &gorm.Config{})
 ```
 
