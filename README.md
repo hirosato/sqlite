@@ -14,6 +14,6 @@ db, err := gorm.Open(sqlite.Open("gorm.db"), &gorm.Config{})
 
 Checkout [https://gorm.io](https://gorm.io) for details.
 
-## Tradeoff
+## THE TRADEOFF
 While CGO free version make things simple, it has performance drawback.<br/>
 go-sqlite3 performs 1.5~2 times better than . For more details, refer to [this benchmarking issue](https://gitlab.com/cznic/sqlite/-/issues/27)
